@@ -1,8 +1,29 @@
 aid: civitas-learning
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/civitas-learning.png
 name: Civitas Learning
-description: 'Civitas Learning is a company surfaced as a portfolio company of emergence-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: edtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Civitas Learning is a higher education technology company whose Student Impact
+  Platform unifies student data, predictive analytics, and coordinated workflows
+  to help colleges and universities improve enrollment, persistence, and
+  completion outcomes. The platform consolidates data from SIS, LMS, CRM, and
+  event systems into a data lakehouse, layers institution-specific predictive
+  models (CivIQ) on top, and surfaces real-time, actionable insights to advisors,
+  faculty, and administrators through products such as Explore, Inspire, Impact,
+  Illume, College Scheduler, Degree Map, and Academic Planning. Civitas Learning
+  serves institutions of all sizes and pairs its software with strategic advisory
+  services. It does not publish a public developer API; this profile captures its
+  public operational, security, and compliance surface.
 url: https://raw.githubusercontent.com/api-evangelist/civitas-learning/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,16 +33,47 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Edtech
-apis: []
+- Higher Education
+- Student Success
+- Analytics
+- Predictive Analytics
+- Data Warehouse
+- Advising
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
   url: https://www.civitaslearning.com
+- type: Documentation
+  url: https://docs.civitaslearning.com
+- type: Blog
+  url: https://www.civitaslearning.com/blog/
+- type: Support
+  url: https://www.civitaslearning.com/contact/
+- type: PrivacyPolicy
+  url: https://www.civitaslearning.com/privacy/
+- type: GitHubOrganization
+  url: https://github.com/civitaslearning
+- type: TrustCenter
+  url: security/civitas-learning-trust-center.yml
+- type: Compliance
+  url: https://trust.civitaslearning.com/
+- type: DomainSecurity
+  url: security/civitas-learning-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/civitas-learning-lifecycle.yml
+- type: StatusPage
+  url: https://status.civitaslearning.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

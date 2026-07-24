@@ -1,0 +1,29 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.civitaslearning.com/
+status_page: https://status.civitaslearning.com/
+status_page_platform: Atlassian Statuspage
+uptime_note: All Systems Operational; 100% uptime over the trailing 90 days at capture
+monitored_components:
+- Degree Map
+- Data Warehouse (Explore)
+- Advising Analytics (Inspire)
+- Inspire for Advisors
+- Course Success Coaching (Inspire for Faculty)
+- Course Insights
+- Initiative Analysis (Impact)
+- Administrative Analytics (Illume)
+- College Scheduler
+- Academic Planning
+subscribe_channels:
+- email
+- sms
+- slack
+- rss
+versioning: null
+deprecation: null
+sla: null
+notes: >-
+  Civitas Learning publishes no public API, so there is no versioning or
+  deprecation policy to capture. This lifecycle artifact records the public
+  operational-transparency surface only (Atlassian Statuspage).

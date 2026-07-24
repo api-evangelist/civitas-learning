@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://trust.civitaslearning.com/
+url: https://trust.civitaslearning.com/
+platform: SafeBase by Drata
+certifications:
+- SOC 2 Type 2
+- FERPA
+- GDPR
+- TX-RAMP Level 2
+- VPAT
+evidence:
+- source: https://trust.civitaslearning.com/
+  keywords:
+  - soc 2 type 2
+  - ferpa
+  - gdpr
+  - tx-ramp level 2
+  - vpat
+  - trust center
